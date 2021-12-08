@@ -1,13 +1,15 @@
 #include<stdio.h>
-void main()
+void main ()
 {
 int r,c;
 clrscr();
 for(r=1;r<=4;r++)
 {
-for(c=1;c<=r;c++)
+r=r+1;
+for(c=1;c>=1;c++)
 {
-printf("%d",c%2);
+c=c+1;
+printf("%d",r);
 }
 printf("\n");
 }
