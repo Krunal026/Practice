@@ -4,11 +4,11 @@ void main()
 {
 int r,c;
 clrscr();
-for(r=1;r<=4;r++)
+for(r=1;r<=3;r++)
 {
-for(c=1;c<=r;c++)
+for(c=1;c<=5;c++)
 {
-printf("%d",c%2);
+printf("%d",c);
 }
 printf("\n");
 }

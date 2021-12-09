@@ -1,14 +1,13 @@
-
 #include<stdio.h>
 void main()
 {
-int r,c;
+char r,c,a='A';
 clrscr();
-for(r=1;r<=4;r++)
+for(r='A';r<='D'; r++)
 {
-for(c=1;c<=r;c++)
+for(c='A';c<=r;c++)
 {
-printf("%d",c%2);
+printf("%c",c);
 }
 printf("\n");
 }

@@ -1,16 +1,16 @@
-
 #include<stdio.h>
 void main()
 {
-int r,c;
+char r,c,a='A';
 clrscr();
-for(r=1;r<=4;r++)
+for(r='E';r>='A';r--)
 {
-for(c=1;c<=r;c++)
+for(c='E';c>='A';c--)
 {
-printf("%d",c%2);
+printf("%c",r);
 }
 printf("\n");
 }
 getch();
 }
+
