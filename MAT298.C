@@ -3,7 +3,7 @@ void main ()
 {
 int h,sp,sr;
 clrscr();
-for(h=1;h<=4;h++)
+for(h=1;h<=3;h++)
 {
 for(sp=0;sp<=40-h;sp++)
 {
@@ -11,7 +11,7 @@ printf(" ");
 }
 for(sr=1;sr<=h;sr++)
 {
-printf(" %d",sr);
+printf("%d",h);
 }
 printf("\n");
 }

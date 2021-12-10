@@ -1,13 +1,18 @@
 #include<stdio.h>
 void main()
 {
-char r,c,a='A';
+int r,c;
 clrscr();
-for(r='A';r<='E';r++)
+for(r=65;r<68;r++)
 {
-for(c='A'; c<='E'; c++)
+for(c=1;c<=5; c++)
 {
-printf(" %c",c);
+if(c==1)
+{
+printf(" %c",r);
+}
+else
+printf("%c",r+32);
 }
 printf("\n");
 }
